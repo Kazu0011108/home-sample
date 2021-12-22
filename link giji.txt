@@ -1,0 +1,17 @@
+<html lang="ja">
+    <head>
+      <style>
+          a:link{
+              colar: black;
+          }
+
+          a:visited{
+              colar: red;
+          }
+      </style>
+   </head>
+   <body>
+      <h1>Index</h1>
+      <a href="hoge.html">Link</a>
+   </body>
+</html>        
