@@ -1,0 +1,77 @@
+<!DOCTYPE html >
+< html  lang = " ja " >
+  ＜ヘッド＞
+    <メタ 文字セット= " UTF-8 " >
+    < title > HTML/CSSの学習</ title >
+    <リンク rel ="スタイルシート" href =" stylesheet.css " >
+  </頭>
+  ＜本体＞
+      < div  id ="ヘッダー" >
+        < h1 > < a  href =" index.html " > < img  id ="廊下" src =" images/corridor.jpg " alt ="大学の廊下"/> </ a > </ h1 >
+      </ div >
+      < div  id ="ラッパー" >
+        < div  id ="ナビゲーション" >
+          < UL >
+            < li > < a  href =" home.html " >ナビ1 </ a > </ li >
+            < li > < a  href =" # " >ナビ2 </ a > </ li >
+            < li > < a  href =" # " >ナビ3 </ a > </ li >
+            < li > < a  href =" # " >ナビ4 </ a > </ li >
+            < li > < a  href =" # " >ナビ5 </ a > </ li >
+          </ UL >
+        </ div >
+      < div  id ="コンテナ" >
+        < div  id ="メイン" >
+          < div クラス=投稿" >
+            < p >ここは文章があります。ここは文章が入ります。文章が入ります。
+          </ div >
+          < div クラス=クリアフィックスの投稿" >
+            < h2 >小意味1 </ h2 >
+            < img  class =" left " src =" images/classroom.jpg " alt ="授業風景" />
+            < p >
+              コンテンツ1の本文になる。コンテンツ1の本文が入る。コンテンツ1の本文が入る。
+              コンテンツ1の本文が入る。コンテンツ1の本文が入る。コンテンツ1の本文が入る。
+            </ p >
+            < p > < a  href =" # " > →コンテンツ１のページへ</ a > </ p >
+          </ div >
+          < div クラス=クリアフィックスの投稿" >
+            < h2 >小意味2 </ h2 >
+            < img  class =" right " src =" images/scale.jpg " alt = "天秤" />
+            < p >
+              コンテンツ2の本文が入る。コンテンツ2の本文が入る。コンテンツ2の本文が入る。
+              コンテンツ2の本文が入る。コンテンツ2の本文が入る。コンテンツ2の本文が入る。
+            </ p >
+          </ div >
+        </ div >
+        < div  id ="サイド" >
+          < div クラス="ボックス" >
+            < h2 >サイドメニュー1 </ h2 >
+            < div クラス="ボックス本体" >
+              < UL >
+                < li >項目 1 </ li >
+                < li >項目 2 </ li >
+                < li >項目 3 </ li >
+                < li >項目 4 </ li >
+              </ UL >
+            </ div >
+          </ div >
+          < div クラス="ボックス" >
+            < h2 >サイドメニュー2 </ h2 >
+            < div クラス="ボックス本体" >
+              < UL >
+                < li >項目 1 </ li >
+                < li >項目 2 </ li >
+                < li >項目 3 </ li >
+                < li >項目 4 </ li >
+              </ UL >
+            </ div >
+          </ div >
+        </ div >
+      </ div >
+    </ div >  
+      < div  id ="フッター" >
+
+        < p > © 20xx oo 無断複写・転載を禁じます。</ p >
+        
+      </ div >
+  </本体>
+</ html >
